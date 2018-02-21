@@ -1,0 +1,26 @@
+.highlight {
+	outline: 3px solid red;
+}
+
+#mydiv {
+	position: fixed;
+    left: 50%;
+    top: 10%;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+#mydiv { 
+	color: white; 
+	font-family: 'Helvetica Neue', 
+	sans-serif; 
+	font-size: 24px; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	/*text-align: center; */
+}

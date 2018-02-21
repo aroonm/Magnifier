@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM-Example</title>
+</head>
+<body>
+	<div>
+		<p>Paragraph 1</p>
+		<p>Paragraph 2</p>
+		<p>Paragraph 3</p>
+	</div>
+	<div>
+		<img = src="" alt="this is an accessible image" style="width:40px;">
+	</div>
+</body>
+</html>
+
+
+
+
+$(document).ready(function() {
+	$(document).keydown(function(ev) {
+		var currentNode = $("body");
+		getNextElement(currentNode[0]);
+	});
+});
+
+function getNextElement(elem) {
+	var nodeType = elem.nodeType;
+	var tagname  = elem.tagName;
+
+	if(nodeType == 1){
+		if($(elem).children().length > 0){
+			return $(elem).children()[0];
+		}
+	}
+}
+
+
+
+// going through a dom tree
+var currentnode = $("body");
+getNextElement(currentnode[0]);
+
+
+
+
+
+
+
+
+
+
+"body".addclass('outlinestyle')
+"*".removeclass('...')
+
+("body").children()[i] ..
+			siblings() [next() , prev()]
+
+
+
+
+var current node  = null
+var readingstate = stop // forward, back , pause, resume
+
+start w. body
+
+function movetonextnode() {
+	
+}
+
+function doesthisnodespeak() {
+	
+}
+
+function whatdoesitsay() {
+	
+}
